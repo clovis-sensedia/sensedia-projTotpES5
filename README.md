@@ -5,6 +5,8 @@ TOTP - versão ES5
 Esta é a implementação do uso da libTotp usando apenas javascript (é usado o LocalStorage para armazenar o cadastro de usuários).
 
 Primeiro é feito um cadastro com usuário, senha e chave de geração de TOTP. A chave de geração é apresentada no formato Base32 e QRCode para inclusão no Google Authenticator. Depois, o usuário deve fazer o login fornecendo a senha e o totp gerado pelo Google Authenticator.
+Esta aplicação está instalada em: https://clovis-sensedia.github.io/sensedia-projTotpES5
+
 Obs. é possível utilizar a página que implementa o cliente TOTP em javascript (https://clovis-sensedia.github.io/sensedia-clientTotp/) ao invés do Google Authenticator.
 
 As bibliotecas JQuery e Bootstrap são utilizadas apenas para formatação de tela
